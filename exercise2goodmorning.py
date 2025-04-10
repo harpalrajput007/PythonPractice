@@ -1,7 +1,8 @@
-from datetime import datetime
+# from datetime import datetime
+import time
 
-now = datetime.now()
-time = now.strftime("%H:%M:%S")
+# now = datetime.now()
+time = time.strftime("%H:%M:%S")
 
 print(time)
 
